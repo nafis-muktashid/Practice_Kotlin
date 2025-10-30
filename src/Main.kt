@@ -1,5 +1,21 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+
+
+//This is the Hello World
+fun helloWorld(){
+    println("Hello world.")
+    println("Hello, The JDK has been configured and the path is changed")
+}
+
+
+//This is how VAR and VAL works
+fun functions(){
+    var myVariable = "apple"
+    println(myVariable)
+}
+
+
 fun main() {
-    println("Hello JDK has been configured")
+    //helloWorld()
+
+    functions()
 }
